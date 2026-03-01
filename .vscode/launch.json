@@ -1,0 +1,41 @@
+{
+  "document": {
+    "doctype": "html",
+    "language": "en",
+    "head": {
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "title": "Document",
+      "stylesheets": [
+        "style.css",
+        "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      ]
+    },
+    "body": {
+      "container": {
+        "class": "container",
+        "navbar": {
+          "class": "navbar",
+          "logo": {
+            "type": "image",
+            "src": "images/icon.jpg",
+            "class": "icon"
+          },
+          "navigation": {
+            "menu": [
+              { "label": "HOME", "link": "" },
+              { "label": "REGION", "link": "" },
+              { "label": "CITY", "link": "" }
+            ]
+          },
+          "menuIcon": {
+            "type": "image",
+            "src": "images/menu.png",
+            "class": "menu-icon"
+          }
+        }
+      }
+    }
+  }
+}
